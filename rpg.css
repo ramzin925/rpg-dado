@@ -1,0 +1,40 @@
+body{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0;
+}
+
+.container{
+    text-align: center;
+    background: rgba(120, 7, 120, 0);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+}
+
+.dado-container{
+    margin: 20px 0;
+}
+
+.dado{
+    font-size: 5rem;
+    display: inline-block;
+    transition: transform 1s ease;
+}
+
+button{
+    padding: 10px 20px;
+    font-size: 1rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: white;
+}
+
+button:hover{
+    background-color: #0056b3;
+}
